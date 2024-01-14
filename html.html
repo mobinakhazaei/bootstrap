@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mobinakhazaei</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <!-- js -->
+    <script src="assets/js/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+    <!--css  -->
+    <link rel="stylesheet" href="assets/css/css.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- font -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@500&family=Raleway:wght@500&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Raleway:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- start nav -->
+    <nav class="navbar sticky-top bg-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1><a class="navbar-brand fs-4 fw-semibold ff-raleway " href="#">MULTI</a></h1>
+            <ul class="nav align-items-center small ff-opensans d-none d-lg-flex">
+                <li class="nav-item"><a class="nav-link text-danger active" aria-current="page" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-secondary link-danger" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link text-secondary link-danger" href="#">Services</a></li>
+                <li class="nav-item"><a class="nav-link text-secondary link-danger" href="#">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link text-secondary link-danger" href="#">Team</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark link-danger" href="#" role="button"
+                        data-bs-toggle="dropdown">Drop
+                        Down <i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="dropdown-menu rounded-0 shadow border-0">
+                        <li><a class="dropdown-item  py-2" href="#">Drop Down 1</a></li>
+                        <li><a class="dropdown-item  py-2" href="#">Drop Down 2</a></li>
+                        <li><a class="dropdown-item  py-2" href="#">Drop Down 3</a></li>
+                        <li><a class="dropdown-item  py-2" href="#">Drop Down 4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link text-secondary link-danger" href="#">Contact</a></li>
+                <li class="nav-item"><a class="btn btn-danger rounded-1 px-3 py-2 mx-3" style="font-size: 14px"
+                        href="#">Get Started</a></li>
+            </ul>
+
+            <!-- Offcanvas Sidebar -->
+            <div class="offcanvas offcanvas-end" id="offcanavs">
+                <div class="offcanvas-header">
+                    <h1 class="offcanvas-title">MULTI</h1>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="nav small ff-opensans flex-column">
+                        <li class="nav-item"><a class="nav-link text-danger active" aria-current="page" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary link-danger" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary link-danger" href="#">Services</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary link-danger" href="#">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link text-secondary link-danger" href="#">Team</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark link-danger" href="#" role="button"
+                                data-bs-toggle="dropdown">Drop
+                                Down <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropdown-menu rounded-0 shadow border-0">
+                                <li><a class="dropdown-item  py-2" href="#">Drop Down 1</a></li>
+                                <li><a class="dropdown-item  py-2" href="#">Drop Down 2</a></li>
+                                <li><a class="dropdown-item  py-2" href="#">Drop Down 3</a></li>
+                                <li><a class="dropdown-item  py-2" href="#">Drop Down 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link text-secondary link-danger" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="btn btn-danger rounded-1 px-3 py-2 mx-3" style="font-size: 14px"
+                                href="#">Get Started</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Button to open the offcanvas sidebar -->
+            <button class="btn btn-light d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanavs">
+                <i class="bi bi-list fs-4"></i>
+            </button>
+        </div>
+    </nav>
+    <!-- end nav -->
+
+    <!-- start header -->
+    <header>
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner" role="listbox">
+
+                <!-- Slide one -->
+                <div class="carousel-item active"
+                    style="background: linear-gradient(rgba(4, 12, 21, 0.6),rgba(4, 12, 21, 0.6)),url(assets/img/slide-1.jpg);background-position: center;background-size: cover; ">
+                    <div class="carousel-container">
+                        <div class="container d-flex flex-column justify-content-center align-items-start">
+                            <h2 class="text-white ff-raleway fw-semibold ms-4" style="font-size: 48px;">
+                                Welcome to Multi
+                            </h2>
+                            <p class="text-white w-50 ff-opensans fs-6 mt-2 mb-4 ms-4">
+                                Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil
+                                ut aliquam.
+                                Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus
+                                repellendus
+                                deleniti vel. Minus et tempore modi architecto.
+                            </p>
+                            <a class="btn btn-danger rounded-1 ff-raleway px-4 py-2 mt-2 scrollto ms-4"
+                                style="font-size: 16px" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide two -->
+                <div class="carousel-item"
+                    style="background: linear-gradient(rgba(4, 12, 21, 0.5),rgba(4, 12, 21, 0.5)),url(assets/img/slide-2.jpg);background-position: center;background-size: cover; ">
+                    <div class="carousel-container">
+                        <div class="container d-flex flex-column justify-content-center align-items-start">
+                            <h2 class="text-white ff-raleway fw-semibold ms-4" style="font-size: 48px;">
+                                Lorem Ipsum Dolor
+                            </h2>
+                            <p class="text-white w-50 ff-opensans fs-6 mt-2 mb-4 ms-4">
+                                Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil
+                                ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse
+                                doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.
+                            </p>
+                            <a class="btn btn-danger rounded-1 ff-raleway px-4 py-2 mt-2 scrollto ms-4"
+                                style="font-size: 16px" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide three -->
+                <div class="carousel-item"
+                    style="background: linear-gradient(rgba(4, 12, 21, 0.5),rgba(4, 12, 21, 0.5)),url(assets/img/slide-3.jpg);background-position: center;background-size: cover; ">
+                    <div class="carousel-container">
+                        <div class="container d-flex flex-column justify-content-center align-items-start">
+                            <h2 class="text-white ff-raleway fw-semibold ms-4" style="font-size: 48px;">
+                                Sequi ea ut et est quaerat
+                            </h2>
+                            <p class="text-white w-50 ff-opensans fs-6 mt-2 mb-4 ms-4">
+                                Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil
+                                ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse
+                                doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.
+                            </p>
+                            <a class="btn btn-danger rounded-1 ff-raleway px-4 py-2 mt-2 scrollto ms-4"
+                                style="font-size: 16px" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Left & right controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon me-5" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon ms-5" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start about  -->
+    <section class="py-5">
+        <div class="container">
+            <div class="top_sec">
+                <div class="d-flex align-items-center">
+                    <span class="fw-bold text-muted small">ABOUT</span>
+                    <span class="my-line bg-danger ms-2"></span>
+                </div>
+                <div>
+                    <span class="fw-bold h3 d-flex mt-1 text-darkblue">ABOUT US</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-10 col-md-6 ">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                        <p class="m-0"><i class="bi bi-check2-all text-danger fs-5"></i>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat
+                        </p>
+                        <p class="m-0"><i class="bi bi-check2-all text-danger fs-5"></i>
+                            Duis aute irure dolor in reprehenderit in voluptate velit</p>
+                        <p class="m-0"><i class="bi bi-check2-all text-danger fs-5"></i>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-10 col-md-6">
+                    <div>
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum.</p>
+                        <a href="" class="btn btn-outline-danger px-3 py-1 mt-3">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5 justify-content-center">
+                <div class="col-12 col-sm-10 col-md-6 col-lg-3 my-2">
+                    <div class="bg-white p-3 shadow rounded">
+                        <div>
+                            <i class=" bi bi-emoji-smile text-danger fs-2"></i>
+                            <span class="fw-bold fs-1 ms-2">232</span>
+                        </div>
+                        <p><b class="ff-raleway">Happy Clients</b> consequuntur quae qui deca rode</p>
+                        <a href="" class="text-darkblue text-decoration-none fw-bold mt-2 d-block">Find out more<i
+                                class="bi bi-chevron-double-right small"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-10 col-md-6 col-lg-3 my-2">
+                    <div class="bg-white p-3 shadow rounded">
+                        <div>
+                            <i class=" bi bi-journal-richtext text-danger fs-2"></i>
+                            <span class="fw-bold fs-1 ms-2">521</span>
+                        </div>
+                        <p><b class="ff-raleway">Projects</b> adipisci atque cum quia aut numquam delectus</p>
+                        <a href="" class="text-darkblue text-decoration-none fw-bold mt-2 d-block">Find out more<i
+                                class="bi bi-chevron-double-right small"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-10 col-md-6 col-lg-3 my-2">
+                    <div class="bg-white p-3 shadow rounded">
+                        <div>
+                            <i class=" bi bi-headset text-danger fs-2"></i>
+                            <span class="fw-bold fs-1 ms-2">1463</span>
+                        </div>
+                        <p><b class="ff-raleway">Hours Of Support</b> aut commodi quaerat.</p>
+                        <a href="" class="text-darkblue text-decoration-none fw-bold mt-2 d-block">Find out more<i
+                                class="bi bi-chevron-double-right small"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-10 col-md-6 col-lg-3 my-2">
+                    <div class="bg-white p-3 shadow rounded">
+                        <div>
+                            <i class=" bi bi-people text-danger fs-2"></i>
+                            <span class="fw-bold fs-1 ms-2">15</span>
+                        </div>
+                        <p><b class="ff-raleway">Hard Workers</b> rerum asperiores dolor molestiae doloribu</p>
+                        <a href="" class="text-darkblue text-decoration-none fw-bold mt-2 d-block">Find out more<i
+                                class="bi bi-chevron-double-right small"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about -->
+
+    <!-- start video -->
+    <section class="bg-lightblue">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-5 bg-video d-flex justify-content-center align-items-center">
+                    <i class="bi bi-play-circle-fill text-danger fs-1"></i>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-7 d-flex align-items-center ">
+                    <div class="mx-5 w-100 py-3">
+                        <span class=" video_title text-darkblue fs-2 d-block" style="width: 75%;">Eum ipsam laborum deleniti <b>velit pariatur
+                                architecto</b></span>
+                        <p class="text-muted my-3 w-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in
+                            reprehenderit</p>
+
+                        <div id="accordion">
+
+                            <div class="card bg-white border-0 active mb-3">
+                                <div class="card-header bg-white border-0 pb-0">
+                                    <a class="btn w-100 text-start" data-bs-toggle="collapse" href="#collapseOne">
+                                        <span class="text-danger fw-bold me-2 fs-5">01</span>
+                                        <span class="fw-bold"> Non consectetur a erat nam at lectus urna duis?</span>
+                                    </a>
+                                </div>
+                                <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="w-80">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                                            volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna
+                                            fringilla urna porttitor rhoncus dolor purus non.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card bg-white border-0 active mb-3">
+                                <div class="card-header bg-white border-0 pb-0">
+                                    <a class="btn w-100 text-start" data-bs-toggle="collapse" href="#collapse2">
+                                        <span class="text-danger fw-bold me-2 fs-5">02</span>
+                                        <span class="fw-bold"> Feugiat scelerisque varius morbi enim nunc?</span>
+                                    </a>
+                                </div>
+                                <div id="collapse2" class="collapse " data-bs-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="w-80">Dolor sit amet consectetur adipiscing elit pellentesque habitant
+                                            morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus
+                                            faucibus scelerisque eleifend donec pretium. Est pellentesque elit
+                                            ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt
+                                            dui.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card bg-white border-0 active mb-3">
+                                <div class="card-header bg-white border-0 pb-0">
+                                    <a class="btn w-100 text-start" data-bs-toggle="collapse" href="#collapse3">
+                                        <span class="text-danger fw-bold me-2 fs-5">03</span>
+                                        <span class="fw-bold"> Dolor sit amet consectetur adipiscing elit?</span>
+                                    </a>
+                                </div>
+                                <div id="collapse3" class="collapse " data-bs-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="w-80">Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                                            sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra
+                                            diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus
+                                            urna duis convallis convallis tellus. Urna molestie at elementum eu
+                                            facilisis sed odio morbi quis</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end video -->
+
+    <!-- start services -->
+    <section class="mb-5">
+        <div class="container">
+            <div class="top_sec my-5">
+                <div class="d-flex align-items-center">
+                    <span class="fw-bold text-muted small">SERVICES</span>
+                    <span class="my-line bg-danger ms-2"></span>
+                </div>
+                <div>
+                    <span class="fw-bold h3 d-flex mt-1 text-darkblue">Check Our Services</span>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-10 col-md-10 col-lg-4 mb-4">
+                    <div
+                        class="services-item bg-white shadow py-5 rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div
+                            class=" services-icon bg-danger  rounded d-flex flex-column align-items-center justify-content-center ">
+                            <i class="bi bi-dribbble text-white h4 services-icon-i fw-bold"></i>
+                        </div>
+                        <span class="h3  fw-bold my-3 ff-raleway">Lorem Ipsum</span>
+                        <p class="ff-opensans">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                            excepturi</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-10 col-md-10 col-lg-4 mb-4">
+                    <div
+                        class="services-item bg-white shadow py-5 rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div
+                            class=" services-icon bg-danger  rounded d-flex flex-column align-items-center justify-content-center ">
+                            <i class="bi bi-file-earmark-text  text-white h4 services-icon-i fw-bold"></i>
+                        </div>
+                        <span class="h3  fw-bold my-3 ff-raleway">Sed ut perspiciatis</span>
+                        <p class="ff-opensans">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-10 col-md-10 col-lg-4 mb-4">
+                    <div
+                        class="services-item bg-white shadow py-5 rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div
+                            class=" services-icon bg-danger  rounded d-flex flex-column align-items-center justify-content-center ">
+                            <i class="bi bi-speedometer2 text-white h4 services-icon-i fw-bold"></i>
+                        </div>
+                        <span class="h3  fw-bold my-3 ff-raleway">Magni Dolores</span>
+                        <p class="ff-opensans">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-10 col-md-10 col-lg-4 mb-4">
+                    <div
+                        class="services-item bg-white shadow py-5 rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div
+                            class=" services-icon bg-danger  rounded d-flex flex-column align-items-center justify-content-center ">
+                            <i class="bi bi-globe-americas text-white h4 services-icon-i fw-bold"></i>
+                        </div>
+                        <span class="h3  fw-bold my-3 ff-raleway">Nemo Enim</span>
+                        <p class="ff-opensans">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-10 col-md-10 col-lg-4 mb-4">
+                    <div
+                        class="services-item bg-white shadow py-5 rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div
+                            class=" services-icon bg-danger  rounded d-flex flex-column align-items-center justify-content-center ">
+                            <i class="bi bi-file-earmark-slides text-white h4 services-icon-i fw-bold"></i>
+                        </div>
+                        <span class="h3  fw-bold my-3 ff-raleway">Dele cardo</span>
+                        <p class="ff-opensans">Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-10 col-md-10 col-lg-4 mb-4">
+                    <div
+                        class="services-item bg-white shadow py-5 rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div
+                            class=" services-icon bg-danger  rounded d-flex flex-column align-items-center justify-content-center ">
+                            <i class="bi bi-bank2  text-white h4 services-icon-i fw-bold"></i>
+                        </div>
+                        <span class="h3  fw-bold my-3 ff-raleway">Divera don</span>
+                        <p class="ff-opensans">Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit
+                            aspernatur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end services -->
+
+    <!-- start timonials -->
+    <section class="bg-lightblue py-5">
+        <div class="container">
+            <div class="top_sec my-5">
+                <div class="d-flex align-items-center">
+                    <span class="fw-bold text-muted small">TESTTIMONIALS</span>
+                    <span class="my-line bg-danger ms-2"></span>
+                </div>
+                <div>
+                    <span class="fw-bold h1 d-flex mt-1 text-darkblue">TESTTIMONIALS</span>
+                </div>
+            </div>
+
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0"
+                        class="timonials-btn active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="timonials-btn "></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="timonials-btn "></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-12 col-sm-10 col-md-6 ">
+                                <div class="bg-white position-relative rounded shadow mx-5 my-5 pt-5 ps-5 pe-2">
+                                    <span class="d-block fw-bold  h5 ff-raleway">Saul Goodman</span>
+                                    <span class="small text-muted ff-raleway">Ceo & Founder</span>
+                                    <p class="mt-4  pb-5 ff-opensans">
+                                        Proin iaculis purus consequat sem cure digni ssim donec porttitora
+                                        entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh
+                                        et. Maecen aliquam, risus at semper.
+                                    </p>
+                                    <img src="assets/img/testimonials-1.jpg" class="rounded img-thumbnail timonials-img"
+                                        style="width: 70px;" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-10 col-md-6 ">
+                                <div class="bg-white position-relative rounded shadow mx-5 my-5 pt-5 ps-5 pe-2">
+                                    <span class="d-block fw-bold  h5 ff-raleway">Sara Wilsson</span>
+                                    <span class="small text-muted ff-raleway">Designer</span>
+                                    <p class="mt-4 pb-5 ff-opensans">
+                                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum
+                                        quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat
+                                        irure amet legam anim culpa.
+                                    </p>
+                                    <img src="assets/img/testimonials-2.jpg" class="rounded img-thumbnail timonials-img"
+                                        style="width: 70px;" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12 col-sm-10 col-md-6 ">
+                                <div class="bg-white position-relative rounded shadow mx-5 my-5 pt-5 ps-5 pe-2">
+                                    <samp class="d-block fw-bold h5 ff-raleway">Jena Karlis</samp>
+                                    <samp class="small text-muted ff-raleway">Store Owner</samp>
+                                    <p class="mt-4  pb-5 ff-opensans">
+                                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
+                                        veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis
+                                        sint minim.
+                                    </p>
+                                    <img src="assets/img/testimonials-3.jpg" class="rounded img-thumbnail timonials-img"
+                                        style="width: 70px;" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-10 col-md-6 ">
+                                <div class="bg-white position-relative rounded shadow mx-5 my-5 pt-5 ps-5 pe-2">
+                                    <samp class="d-block fw-bold h5 ff-raleway">Matt Brandon</samp>
+                                    <samp class="small text-muted ff-raleway">Freelancer</samp>
+                                    <p class="mt-4 pb-5 ff-opensans">
+                                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim
+                                        fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore
+                                        quem dolore labore illum veniam.
+                                    </p>
+                                    <img src="assets/img/testimonials-4.jpg" class="rounded img-thumbnail timonials-img"
+                                        style="width: 70px;" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12 col-sm-10 col-md-6 ">
+                                <div class="bg-white position-relative rounded shadow mx-5 my-5 pt-5 ps-5 pe-2">
+                                    <samp class="d-block fw-bold h5 ff-raleway">John Larson</samp>
+                                    <samp class="small text-muted ff-raleway">Entrepreneur</samp>
+                                    <p class="mt-4 pb-5 ff-opensans">
+                                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor
+                                        noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam
+                                        esse veniam culpa fore nisi cillum quid.
+                                    </p>
+                                    <img src="assets/img/testimonials-5.jpg" class="rounded img-thumbnail timonials-img"
+                                        style="width: 70px;" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-10 col-md-6 ">
+                                <div class="bg-white position-relative rounded shadow mx-5 my-5 pt-5 ps-5 pe-2">
+                                    <samp class="d-block fw-bold  h5 ff-raleway">Saul Goodman</samp>
+                                    <samp class="small text-muted ff-raleway">Ceo & Founder</samp>
+                                    <p class="mt-4 pb-5 ff-opensans">
+                                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor
+                                        noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam
+                                        esse veniam culpa fore nisi cillum quid.
+                                    </p>
+                                    <img src="assets/img/testimonials-1.jpg" class="rounded img-thumbnail timonials-img"
+                                        style="width: 70px;" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end timonials -->
+
+    <!-- start action -->
+    <section class="bg-darkblue py-5">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center text-center py-4">
+                <span class="h2 text-white fw-bold ff-raleway ">Call To Action</span>
+                <p class="h6 text-white py-3 Action-text ff-opensans">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.
+                </p>
+                <a href="" class="btn btn-outline-danger mt-4 px-5 py-2 text-white border-2">Call To Action</a>
+            </div>
+        </div>
+    </section>
+    <!-- end action -->
+
+    <!-- start portfolio -->
+    <section class="py-5">
+        <div class="container">
+            <div class="top_sec my-5">
+                <div class="d-flex align-items-center">
+                    <span class="fw-bold text-muted small">PORTFOLIO</span>
+                    <span class="my-line bg-danger ms-2"></span>
+                </div>
+                <div>
+                    <span class="fw-bold h1 d-flex mt-1 text-darkblue">CHECK OUR PORTFOLIO</span>
+                </div>
+            </div>
+
+            <ul class="my-3 nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-danger" href="">ALL</a></li>
+                <li class="nav-item"><a class="nav-link text-dark link-danger" href="">APP</a></li>
+                <li class="nav-item"><a class="nav-link text-dark link-danger" href="">CARD</a></li>
+                <li class="nav-item"><a class="nav-link text-dark link-danger" href="">WEB</a></li>
+            </ul>
+
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 my-2">
+                    <div class="portfolio_item overflow-hidden d-flex justify-content-center position-relative">
+                        <div>
+                            <img src="assets/img/portfolio-1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class=" portfolio_item_hover  py-3 px-3  position-absolute d-flex justify-content-between align-items-center"
+                            style="width: 80%;">
+                            <div>
+                                <span class="ff-raleway h5 d-block ">App 1</span>
+                                <span class="ff-opensans text-darkblue">App</span>
+                            </div>
+                            <div>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-plus"></i></a>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 my-2">
+                    <div class="portfolio_item overflow-hidden d-flex justify-content-center position-relative">
+                        <div>
+                            <img src="assets/img/portfolio-2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class=" portfolio_item_hover  py-3 px-3  position-absolute d-flex justify-content-between align-items-center"
+                            style="width: 80%;">
+                            <div>
+                                <span class="ff-raleway h5 d-block ">Web 1</span>
+                                <span class="ff-opensans text-darkblue">Web</span>
+                            </div>
+                            <div>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-plus"></i></a>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 my-2">
+                    <div class="portfolio_item overflow-hidden d-flex justify-content-center position-relative">
+                        <div>
+                            <img src="assets/img/portfolio-3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class=" portfolio_item_hover  py-3 px-3  position-absolute d-flex justify-content-between align-items-center"
+                            style="width: 80%;">
+                            <div>
+                                <span class="ff-raleway h5 d-block ">App 2</span>
+                                <span class="ff-opensans text-darkblue">App</span>
+                            </div>
+                            <div>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-plus"></i></a>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 my-2">
+                    <div class="portfolio_item overflow-hidden d-flex justify-content-center position-relative">
+                        <div>
+                            <img src="assets/img/portfolio-4.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class=" portfolio_item_hover  py-3 px-3  position-absolute d-flex justify-content-between align-items-center"
+                            style="width: 80%;">
+                            <div>
+                                <span class="ff-raleway h5 d-block ">Card 2</span>
+                                <span class="ff-opensans text-darkblue">Card</span>
+                            </div>
+                            <div>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-plus"></i></a>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 my-2">
+                    <div class="portfolio_item overflow-hidden d-flex justify-content-center position-relative">
+                        <div>
+                            <img src="assets/img/portfolio-5.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class=" portfolio_item_hover  py-3 px-3  position-absolute d-flex justify-content-between align-items-center"
+                            style="width: 80%;">
+                            <div>
+                                <span class="ff-raleway h5 d-block ">Web 2</span>
+                                <span class="ff-opensans text-darkblue">Web</span>
+                            </div>
+                            <div>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-plus"></i></a>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 my-2">
+                    <div class="portfolio_item overflow-hidden d-flex justify-content-center position-relative">
+                        <div>
+                            <img src="assets/img/portfolio-6.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class=" portfolio_item_hover  py-3 px-3  position-absolute d-flex justify-content-between align-items-center"
+                            style="width: 80%;">
+                            <div>
+                                <span class="ff-raleway h5 d-block ">App 3</span>
+                                <span class="ff-opensans text-darkblue">App</span>
+                            </div>
+                            <div>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-plus"></i></a>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 my-2">
+                    <div class="portfolio_item overflow-hidden d-flex justify-content-center position-relative">
+                        <div>
+                            <img src="assets/img/portfolio-7.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class=" portfolio_item_hover  py-3 px-3  position-absolute d-flex justify-content-between align-items-center"
+                            style="width: 80%;">
+                            <div>
+                                <span class="ff-raleway h5 d-block ">Card 1</span>
+                                <span class="ff-opensans text-darkblue">Card</span>
+                            </div>
+                            <div>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-plus"></i></a>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 my-2">
+                    <div class="portfolio_item overflow-hidden d-flex justify-content-center position-relative">
+                        <div>
+                            <img src="assets/img/portfolio-8.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class=" portfolio_item_hover  py-3 px-3  position-absolute d-flex justify-content-between align-items-center"
+                            style="width: 80%;">
+                            <div>
+                                <span class="ff-raleway h5 d-block ">Card 3</span>
+                                <span class="ff-opensans text-darkblue">Card</span>
+                            </div>
+                            <div>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-plus"></i></a>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 my-2">
+                    <div class="portfolio_item overflow-hidden d-flex justify-content-center position-relative">
+                        <div>
+                            <img src="assets/img/portfolio-9.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class=" portfolio_item_hover  py-3 px-3  position-absolute d-flex justify-content-between align-items-center"
+                            style="width: 80%;">
+                            <div>
+                                <span class="ff-raleway h5 d-block ">Web 3</span>
+                                <span class="ff-opensans text-darkblue">Web</span>
+                            </div>
+                            <div>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-plus"></i></a>
+                                <a href="" class="text-dark link-danger fs-3"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end portfolio -->
+
+    <!-- start team -->
+    <section class="py-5 bg-lightblue">
+        <div class="container">
+            <div class="top_sec my-5">
+                <div class="d-flex align-items-center">
+                    <span class="fw-bold text-muted small">TEAM</span>
+                    <span class="my-line bg-danger ms-2"></span>
+                </div>
+                <div>
+                    <span class="fw-bold h1 d-flex mt-1 text-darkblue">CHECK OUR TEAM</span>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-12 col-sm-6 col-md-3 my-2">
+                    <div class="team_item overflow-hidden position-relative">
+                        <div>
+                            <img src="assets/img/team-1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="team_item_hover1  position-absolute">
+                            <div class="mt-3 d-flex flex-column align-items-center">
+                                <a href="" class="py-2 fs-5 text-white link-danger"><i class="bi bi-twitter"></i> </a>
+                                <a href="" class="py-2 fs-5 text-white link-danger"><i class="bi bi-facebook"></i> </a>
+                                <a href="" class="py-2 fs-5 text-white link-danger"><i class="bi bi-instagram"></i> </a>
+                                <a href="" class="py-2 fs-5 text-white link-danger"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div
+                            class="team_item_hover2 position-absolute d-flex flex-column align-items-center justify-content-end text-center pb-3">
+                            <div class="text-white">
+                                <h5 class="ff-raleway">Walter White</h5>
+                                <span class="ff-opensans">Chief Executive Officer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3 my-2">
+                    <div class="team_item overflow-hidden position-relative">
+                        <div>
+                            <img src="assets/img/team-2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="team_item_hover1  position-absolute">
+                            <div class="mt-3 d-flex flex-column align-items-center">
+                                <a href="" class="py-2 fs-5 text-white link-danger"><i class="bi bi-twitter"></i> </a>
+                                <a href="" class="py-2 fs-5 text-white link-danger"><i class="bi bi-facebook"></i> </a>
+                                <a href="" class="py-2 fs-5 text-white link-danger"><i class="bi bi-instagram"></i> </a>
+                                <a href="" class="py-2 fs-5 text-white link-danger"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div
+                            class="team_item_hover2 position-absolute d-flex flex-column align-items-center justify-content-end text-center pb-3">
+                            <div class="text-white">
+                                <h5 class="ff-raleway">Sarah Jhonson </h5>
+                                <span class="ff-opensans">Product Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3 my-2">
+                    <div class="team_item overflow-hidden position-relative">
+                        <div>
+                            <img src="assets/img/team-3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="team_item_hover1  position-absolute">
+                            <div class="mt-3 d-flex flex-column align-items-center">
+                                <a href="" class="py-2 fs-5 text-white link-danger"><i class="bi bi-twitter"></i> </a>
+                                <a href="" class="py-2 fs-5 text-white link-danger"><i class="bi bi-facebook"></i> </a>
+                                <a href="" class="py-2 fs-5 text-white link-danger"><i class="bi bi-instagram"></i> </a>
+                                <a href="" class="py-2 fs-5 text-white link-danger"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div
+                            class="team_item_hover2 position-absolute d-flex flex-column align-items-center justify-content-end text-center pb-3">
+                            <div class="text-white">
+                                <h5 class="ff-raleway">William Anderson</h5>
+                                <span class="ff-opensans">CTO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3 my-2">
+                    <div class="team_item overflow-hidden position-relative">
+                        <div>
+                            <img src="assets/img/team-4.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="team_item_hover1  position-absolute">
+                            <div class="mt-3 d-flex flex-column align-items-center">
+                                <a href="" class="py-2 fs-5 text-white link-danger"><i class="bi bi-twitter"></i> </a>
+                                <a href="" class="py-2 fs-5 text-white link-danger"><i class="bi bi-facebook"></i> </a>
+                                <a href="" class="py-2 fs-5 text-white link-danger"><i class="bi bi-instagram"></i> </a>
+                                <a href="" class="py-2 fs-5 text-white link-danger"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div
+                            class="team_item_hover2 position-absolute d-flex flex-column align-items-center justify-content-end text-center pb-3">
+                            <div class="text-white">
+                                <h5 class="ff-raleway">Amanda Jepson</h5>
+                                <span class="ff-opensans">Accountant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end team -->
+
+    <!-- start prices -->
+    <section class="py-5">
+        <div class="container">
+            <div class="top_sec my-5">
+                <div class="d-flex align-items-center">
+                    <span class="fw-bold text-muted small">PRICING</span>
+                    <span class="my-line bg-danger ms-2"></span>
+                </div>
+                <div>
+                    <span class="fw-bold h1 d-flex mt-1 text-darkblue">OUR COMPETING PRICES</span>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-10 col-md-4 my-2">
+                    <div class="bg-white rounded-2">
+                        <div class="d-flex flex-column text-center pt-5">
+                            <span class="fs-3 ff-opensans">Free</span>
+                            <span class="h1">$0</span>
+                            <span class="text-muted">per month</span>
+                        </div>
+                        <div class="px-5 py-4">
+                            <p><i class="bi bi-check-lg px-2 text-danger"></i>Quam adipiscing vitae proin</p>
+                            <p><i class="bi bi-check-lg px-2 text-danger"></i>Nec feugiat nisl pretium</p>
+                            <p><i class="bi bi-check-lg px-2 text-danger"></i>Nulla at volutpat diam uteera</p>
+                            <p class=" text-muted text-decoration-line-through"><i
+                                    class="bi bi-x px-2 text-muted"></i>Pharetra massa massa ultricies</p>
+                            <p class=" text-muted text-decoration-line-through"><i
+                                    class="bi bi-x px-2 text-muted"></i>Massa ultricies mi quis hendrerit</p>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center pb-5 ">
+                            <a href="" class="btn btn-outline-dark border-3">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-10 col-md-4 my-2">
+                    <div class="bg-white rounded-2 border border-danger border-3 ">
+                        <div class="d-flex flex-column text-center pt-5">
+                            <span class="fs-3 ff-opensans">Business</span>
+                            <span class="h1">$29</span>
+                            <span class="text-muted">per month</span>
+                        </div>
+                        <div class="px-5 py-4">
+                            <p><i class="bi bi-check-lg px-2 text-danger"></i>Quam adipiscing vitae proin</p>
+                            <p><i class="bi bi-check-lg px-2 text-danger"></i>Nec feugiat nisl pretium</p>
+                            <p><i class="bi bi-check-lg px-2 text-danger"></i>Nulla at volutpat diam uteera</p>
+                            <p><i class="bi bi-check-lg px-2 text-danger"></i>Pharetra massa massa ultricies</p>
+                            <p><i class="bi bi-check-lg px-2 text-danger"></i>Massa ultricies mi quis hendrerit</p>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center pb-5 ">
+                            <a href="" class="btn btn-danger border-3">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-10 col-md-4 my-2">
+                    <div class="bg-white rounded-2">
+                        <div class="d-flex flex-column text-center pt-5">
+                            <span class="fs-3 ff-opensans">Developer</span>
+                            <span class="h1">$49</span>
+                            <span class="text-muted">per month</span>
+                        </div>
+                        <div class="px-5 py-4">
+                            <p><i class="bi bi-check-lg px-2 text-danger"></i>Quam adipiscing vitae proin</p>
+                            <p><i class="bi bi-check-lg px-2 text-danger"></i>Nec feugiat nisl pretium</p>
+                            <p><i class="bi bi-check-lg px-2 text-danger"></i>Nulla at volutpat diam uteera</p>
+                            <p><i class="bi bi-check-lg px-2 text-danger"></i>Pharetra massa massa ultricies</p>
+                            <p><i class="bi bi-check-lg px-2 text-danger"></i>Massa ultricies mi quis hendrerit
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center pb-5 ">
+                            <a href="" class="btn btn-outline-dark border-3">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end prices -->
+
+    <!-- start FAQ -->
+    <section class="py-5">
+        <div class="container">
+            <div class="top_sec my-5">
+                <div class="d-flex align-items-center">
+                    <span class="fw-bold text-muted small">F.A.Q</span>
+                    <span class="my-line bg-danger ms-2"></span>
+                </div>
+                <div>
+                    <span class="fw-bold h1 d-flex mt-1 text-darkblue">FREQUENTLY ASKED QUESTIONS</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-10 col-md-10 col-lg-5">
+                    <div class="d-flex">
+                        <i class="bi bi-question-circle text-info px-2"></i>
+                        <span class="fw-bold ff-opensans text-center">Non consectetur a erat nam at lectus urna
+                            duis?</span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-10 col-md-10 col-lg-7">
+                    <p class="ff-opensans">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus
+                        laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
+                        purus non.
+                    </p>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-12 col-sm-10 col-md-10 col-lg-5">
+                    <div class="d-flex">
+                        <i class="bi bi-question-circle text-info px-2"></i>
+                        <span class="fw-bold ff-opensans ">Feugiat scelerisque varius morbi enim nunc faucibus a
+                            pellentesque?
+                        </span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-10 col-md-10 col-lg-7">
+                    <p class="ff-opensans">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
+                        interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
+                        donec pretium. Est pellentesque elit ullamcorper dignissim.
+                    </p>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-12 col-sm-10 col-md-10 col-lg-5">
+                    <div class="d-flex">
+                        <i class="bi bi-question-circle text-info px-2"></i>
+                        <span class="fw-bold ff-opensans">Dolor sit amet consectetur adipiscing elit pellentesque
+                            habitant morbi?
+                        </span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-10 col-md-10 col-lg-7">
+                    <p class="ff-opensans">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
+                        Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
+                        tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus.
+                    </p>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-12 col-sm-10 col-md-10 col-lg-5">
+                    <div class="d-flex">
+                        <i class="bi bi-question-circle text-info px-2"></i>
+                        <span class="fw-bold ff-opensans">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                        </span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-10 col-md-10 col-lg-7">
+                    <p class="ff-opensans">Aperiam itaque sit optio et deleniti eos nihil quidem cumque. Voluptas
+                        dolorum accusantium sunt sit enim. Provident consequuntur quam aut reiciendis qui rerum dolorem
+                        sit odio. Repellat assumenda soluta sunt pariatur error doloribus fuga.
+                    </p>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-12 col-sm-10 col-md-10 col-lg-5">
+                    <div class="d-flex">
+                        <i class="bi bi-question-circle text-info px-2"></i>
+                        <span class="fw-bold ff-opensans">Tempus quam pellentesque nec nam aliquam sem et tortor
+                            consequat?
+                        </span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-10 col-md-10 col-lg-7">
+                    <p class="ff-opensans">Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim
+                        suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
+                        suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                    </p>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <!-- end FAQ -->
+
+    <!-- start contact -->
+    <section class="py-5 bg-lightblue">
+        <div class="container">
+            <div class="top_sec my-5">
+                <div class="d-flex align-items-center">
+                    <span class="fw-bold text-muted small">CONTACT</span>
+                    <span class="my-line bg-danger ms-2"></span>
+                </div>
+                <div>
+                    <span class="fw-bold h1 d-flex mt-1 text-darkblue">CONTACT US</span>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12 col-sm-12 col-md-6 mb-3">
+                    <div class="row">
+                        <div class="col-12 mb-3">
+                            <div
+                                class="bg-white rounded shadow py-3 d-flex flex-column justify-content-center align-items-center text-center">
+                                <div
+                                    class="contact_icon_box d-flex justify-content-center align-items-center rounded-circle">
+                                    <i class="bi bi-geo-alt text-danger fs-3"></i>
+                                </div>
+                                <span class="fw-bold text-muted fs-4 py-2">Our Address</span>
+                                <address>A108 Adam Street, New York, NY 535022</address>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div
+                                class="bg-white rounded shadow py-3 d-flex flex-column justify-content-center align-items-center text-center">
+                                <div
+                                    class="contact_icon_box d-flex justify-content-center align-items-center rounded-circle">
+                                    <i class="bi bi-envelope text-danger fs-3"></i>
+                                </div>
+                                <span class="fw-bold text-muted fs-4 py-2">Email Us</span>
+                                <span>info@example.com</span>
+                                <span>contact@example.com</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div
+                                class="bg-white rounded shadow py-3 d-flex flex-column justify-content-center align-items-center text-center">
+                                <div
+                                    class="contact_icon_box d-flex justify-content-center align-items-center rounded-circle">
+                                    <i class="bi bi-telephone text-danger fs-3"></i>
+                                </div>
+                                <span class="fw-bold text-muted fs-4 py-2">Call Us</span>
+                                <span>+1 5589 55488 55</span>
+                                <span>+1 6678 254445 41</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 mb-3">
+                    <form action="" class="bg-white shadow rounded p-3 h-100">
+                        <div class="row">
+                            <div class="col-6 mb-3">
+                                <input type="text" placeholder="Your Name " class="form-control">
+                            </div>
+                            <div class="col-6 mb-3">
+                                <input type="email" placeholder="Your Email " class="form-control">
+                            </div>
+                            <div class="col-12 mb-3">
+                                <input type="text" placeholder="Subject" class="form-control">
+                            </div>
+                            <div class="col-12 mb-3">
+                                <textarea class="form-control" placeholder="Message" name="" id="" cols="30"
+                                    rows="5"></textarea>
+                            </div>
+                            <div class="col-12 mb-3 d-flex justify-content-center">
+                                <button class="btn btn-danger px-3">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact -->
+
+    <!-- start footer -->
+    <footer class="bg-darkblue py-5">
+        <div class="container">
+            <div class="row text-white justify-content-center">
+                <div class="col-12 col-sm-10 col-md-7 col-lg-4 my-2">
+                    <div
+                        class="footer_multi text-white py-4 px-3 text-center d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="ff-raleway fw-bold">Multi</h3>
+                        <p class="ff-opensans small py-3">Qui repudiandae et eum dolores alias sed ea. Qui suscipit
+                            veniam excepturi quod.</p>
+                        <address class="small col-5">A108 Adam Street
+                            NY 535022, USA
+                        </address>
+                        <div>
+                            <strong>Phone:</strong>
+                            <span>+1 5589 55488 55</span>
+                        </div>
+                        <div>
+                            <strong>Email:</strong>
+                            <span>info@example.com</span>
+                        </div>
+                        <div class="footer_icons mt-3 d-flex">
+                            <a class="bg-darkblue mx-1 d-flex justify-content-center align-items-center rounded text-white"
+                                href="">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                            <a class="bg-darkblue mx-1 d-flex justify-content-center align-items-center rounded text-white"
+                                href="">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a class="bg-darkblue mx-1 d-flex justify-content-center align-items-center rounded text-white"
+                                href="">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a class="bg-darkblue mx-1 d-flex justify-content-center align-items-center rounded text-white"
+                                href="">
+                                <i class="bi bi-skype"></i>
+                            </a>
+                            <a class="bg-darkblue mx-1 d-flex justify-content-center align-items-center rounded text-white"
+                                href="">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-5 col-lg-2 my-2">
+                    <div>
+                        <span class="ff-raleway fw-bold  pb-4 d-inline-block">Useful Links</span>
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="bi bi-chevron-right text-danger small"></i>
+                                <a href=""
+                                    class="text-white link-danger text-decoration-none py-1 d-inline-block">Home</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right text-danger small"></i>
+                                <a href="" class="text-white link-danger text-decoration-none py-1 d-inline-block">
+                                    About us
+                                </a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right text-danger small"></i>
+                                <a href=""
+                                    class="text-white link-danger text-decoration-none py-1 d-inline-block">Services</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right text-danger small"></i>
+                                <a href="" class="text-white link-danger text-decoration-none py-1 d-inline-block">
+                                    Terms of service
+                                </a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right text-danger small"></i>
+                                <a href="" class="text-white link-danger text-decoration-none py-1 d-inline-block">
+                                    Privacy policy
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-5 col-lg-2 my-2">
+                    <div>
+                        <span class="ff-raleway fw-bold  pb-4 d-inline-block">Our Services</span>
+                        <ul class="list-unstyled">
+                            <li>
+                                <i class="bi bi-chevron-right text-danger small"></i>
+                                <a href="" class="text-white link-danger text-decoration-none py-1 d-inline-block">Web
+                                    Design</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right text-danger small"></i>
+                                <a href="" class="text-white link-danger text-decoration-none py-1 d-inline-block">
+                                    Web Development
+                                </a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right text-danger small"></i>
+                                <a href=""
+                                    class="text-white link-danger text-decoration-none py-1 d-inline-block">Product
+                                    Management</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right text-danger small"></i>
+                                <a href="" class="text-white link-danger text-decoration-none py-1 d-inline-block">
+                                    Marketing
+                                </a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right text-danger small"></i>
+                                <a href="" class="text-white link-danger text-decoration-none py-1 d-inline-block">
+                                    Graphic Design
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-10 col-md-7 col-lg-4 my-2">
+                    <div>
+                        <span class="fw-bold pd-4 d-inline-block">Our Newsletter</span>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <form action="" class="mt-4">
+                            <div class="input-group ">
+                                <input type="text" class="form-control">
+                                <button type="submit" class="input-group-text btn btn-danger">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <hr class="bg-durk-blue my-4">
+                <div class="col-12">
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                        <span class="my-2">
+                            © Copyright <strong>Multi</strong>. All Rights Reserved
+                        </span>
+                        <div class="d-flex">
+                            <span>Designed by</span>
+                            <a href="" class="text-decoration-none text-danger mx-1">BootstrapMade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- start up -->
+    <div class="up">
+        <a href="#top"
+            class="text-white text-decoration-none fs-5 bg-danger rounded-2 d-flex justify-content-center align-items-center position-fixed ">
+            <i class="bi bi-arrow-up text-white"></i>
+        </a>
+    </div>
+    <!-- end up -->
+</body>
+
+</html>

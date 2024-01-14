@@ -1,0 +1,201 @@
+body{
+    background-color: rgba(194, 189, 189, 0.176);
+    font-family: "Raleway", sans-serif;
+}
+.ff-raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+.ff-opensans {
+    font-family: "Open Sans", sans-serif;
+}
+
+.ff-poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.text-darkblue {
+    color: #0f2f57 !important;
+}
+.bg-darkblue{
+    background-color: #071527;
+}
+.bg-lightblue{
+    background-color: #f6f9fd;
+}
+.my-line{
+    width: 100px;
+    height: 2px;
+}
+.form-control:focus{
+    border-color: #dc3545!important;
+    box-shadow: none !important;
+}
+
+/* start header */
+header .container{
+    min-height: 90vh;
+}
+header .carousel-indicators button{
+    width: 13px !important;
+    height: 13px !important;
+    border-radius: 50%;
+}
+header .carousel-indicators button.active{
+    background-color: #dc3545;
+}
+/* end header */
+
+/* start video */
+.bg-video{
+    background-image: url("../img/why-us.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* end video */
+
+/* start services */
+.services-icon{
+    width: 50px;
+    height: 50px;
+    box-shadow: -5px -5px #d27c858a;
+}
+.services-item{
+    transition-duration: 1s;
+}
+.services-icon-i{
+    transition-duration: 1s;
+}
+.services-icon{
+    transition-duration: 1s;
+}
+.services-item:hover{
+    background-color: #dc3545 !important;
+    background-size: cover;
+    color: white;
+}
+.services-item:hover .services-icon{
+    background-color: white !important;
+    
+
+}
+.services-item:hover .services-icon-i{
+    color: #dc3545 !important;
+}
+/* end services */
+
+/* start timonials */
+.timonials-img{
+    position: absolute !important;
+    top: 35px;
+    left: -35px;
+}
+.Open{
+    font-family: 'Open Sans', sans-serif;
+}
+.timonials-btn{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    bottom: -35px !important;
+    background-color: white !important;
+    border: 1px solid #dc3545 !important;
+}
+.timonials-btn.active{
+    background-color: #dc3545 !important;
+}
+/* end timolials */
+
+/* start portfolio */
+.portfolio_item_hover{
+    top: 100%;
+    background-color: rgba(255, 255, 255, 0.879);
+    transition-duration: 0.5s;
+}
+.portfolio_item:hover .portfolio_item_hover{
+    top: 63%;
+}
+/* end portfolio */
+
+/* start team */
+.team_item_hover1{
+    top: 100%;
+    left: -18%;
+    height: 100%;
+    width: 18%;
+    background-color:rgba(11, 35, 65, 0.5);
+    transition-duration: 0.5s;
+    z-index: 6;
+}
+.team_item_hover2{
+    top: 100%;
+    left: 100%;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(transparent,rgba(11, 35, 65, 0.8));
+    transition-duration: 0.5s;
+}
+.team_item:hover .team_item_hover1{
+    left: 0;
+    top: 0;
+}
+.team_item:hover .team_item_hover2{
+    top: 0;
+    left: 0;
+}
+/* end team */
+
+/* start contact */
+.contact_icon_box{
+    width: 60px;
+    height: 60px;
+    border: 2px dashed #dc3545;
+}
+/* end contact */
+
+/* start footer */
+.footer_multi{
+    border-top: 5px solid #dc3545;
+    background-color: #05101e;
+}
+.footer_icons a{
+    width: 30px;
+    height: 30px;
+}
+.footer_icons a:hover{
+    background-color: #dc3545!important;
+}
+/* end footer */
+
+/* start up */
+.up a{
+    right: 20px !important;
+    bottom: 20px !important;
+    width: 33px;
+    height: 33px;
+}
+/* end up */
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .video_title{
+        width: 95% !important;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+        /* start video */
+        .bg-video{
+            min-height:300px ;
+        }
+        /* end video */
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+}
+
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
