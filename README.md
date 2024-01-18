@@ -3,7 +3,7 @@
 _**this is a bootstrap project written in html,css and bootstrap language.**_
 
 ```plaintext
-<a href:"https://github.com/mobinakhazaei/bootstrap"></a>
+<a href="https://github.com/mobinakhazaei/bootstrap"></a>
 ```
 
 https://github.com/mobinakhazaei/bootstrap
