@@ -1,0 +1,1 @@
+document.writer("Thank you for choosing this site");
