@@ -1,1 +1,1 @@
-document.writer("Thank you for choosing this site");
+window.alert("Thank you for choosing this site");
